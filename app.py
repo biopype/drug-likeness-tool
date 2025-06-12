@@ -2,6 +2,10 @@ import streamlit as st
 import pandas as pd
 from utils.lipinski import detect_smiles_column, analyze_lipinski
 import io
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.dirname(__file__)))
+
 
 # Configure page
 st.set_page_config(page_title="Lipinski's Rule of Five Analyzer", layout="wide")
