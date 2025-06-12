@@ -1,4 +1,3 @@
-rdkit-pypi
 libc6
 libc6-dev
 libglib2.0-0
