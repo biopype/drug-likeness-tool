@@ -1,4 +1,2 @@
 streamlit
 pandas
-openpyxl
-rdkit==2022.9.5
